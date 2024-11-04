@@ -1,0 +1,8 @@
+1. ¿Qué ventajas y desventajas tiene la ejecución de programas de manera síncrona versus asíncrona?
+
+Síncrona: Es más sencilla porque las tareas se ejecutan en orden. Sin embargo, es lenta si una tarea toma mucho tiempo, ya que las siguientes deben esperar.
+Asíncrona: Permite que el programa avance sin esperar a que terminen otras tareas, lo que es útil para realizar tareas más rapido.
+
+2. ¿Por qué es importante manejar las excepciones al trabajar con procesos?
+
+Al trabajar con procesos, pueden surgir varios errores como los de permisos o accesos denegados. Capturar excepciones permite controlar estos errorres y mostrarselos al usuariogit.
